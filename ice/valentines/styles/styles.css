@@ -1,0 +1,104 @@
+/*******************
+Author:
+Date: 2026-02-12
+Description: Styles for valentines
+    *******************/
+
+/*******************
+    * Global Styles *
+    *******************/
+
+/* Body Styles */
+body {
+    background-color: aliceblue;
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*******************
+    * Header Styles *
+    *******************/
+
+/* Header Styles */
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+/* Wrapper Styles */
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Navigation Styles */
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+/* ul Styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+/*******************
+    * Main Styles *
+    *******************/
+
+/* Main Styles */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+/* h1 Styles */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    grid-column: 1/4;
+    text-align: center;
+    font-family: cursive;
+    font-weight: lighter;
+}
+/* h2 Styles */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(186, 46, 46);
+}
+/* Paragraph Styles */
+p {
+    font-size: 15px;
+    color: rgb(249, 84, 111);
+    font-family: sans-serif;
+}
+/* Image Styles */
+img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 30%;
+    justify-self: center;
+    grid-column: 1/4;
+}
+
+/*******************
+    * Footer Styles *
+    *******************/
+
+/* Footer Styles */
+footer {
+    background-color: lightpink;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <table>
+          <tr>
+            <th width="30%">Speaker</th>
+            <th width="30%">Title</th>
+            <th width="30%">Location</th>
+            <th width="10%">Year</th>
+          </tr>
+
+          <!-- 1st Row -->
+          <tr>
+            <td>Elder Quentin L. Cook</td>
+            <td>His Paths are Righteous</td>
+            <td>BYU-I Center Auditorium</td>
+            <td>2025</td>
+          </tr>
+
+          <!-- 2nd Row -->
+          <tr>
+            <td>Elder Bruce C. & Sister Marie Hafen</td>
+            <td>"Severe Mercy"-- Love and Sacrifice</td>
+            <td>BYU-I Center Auditorium</td>
+            <td>2026</td>
+          </tr>
+
+          <!-- 3rd Row -->
+          <tr>
+            <td>Perry Rockwood</td>
+            <td>When Sorrow Meets the Savior</td>
+            <td>BYU-I Center Auditorium</td>
+            <td>2025</td>
+          </tr>
+        </table>
+        <form>
+          <form-header id="form-header">Add Your Favorite Devotional</form-header>
+          <div class="entry">
+            <label for="speaker">Speaker:</label>
+            <input type="text" id="speaker" name="speaker" required>
+          </div>
+
+          <div class="entry">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+          </div>
+
+          <div class="entry">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+          </div>
+
+          <div class="entry">
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year" required>
+          </div>
+          <button type="submit">Add Devotional</button>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
